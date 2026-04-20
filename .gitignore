@@ -1,0 +1,38 @@
+# ==========================================
+# UNREAL ENGINE - PASTAS TEMPORÁRIAS E CACHE
+# ==========================================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+
+# ==========================================
+# ASSETS PESADOS (BLOQUEIO TOTAL)
+# ==========================================
+# MetaHumans
+**/MetaHumans/
+**/metahumans/
+
+# BlackAlder (A pasta de 7GB)
+**/BlackAlder/
+**/blackalder/
+**/Blackalder/
+
+# MSPresets
+**/MSPresets/
+
+# Outros
+*_BuiltData.uasset
+*.log
+*.tmp
+
+# ==========================================
+# ARQUIVOS DE PROJETO E C++
+# ==========================================
+*.sln
+*.suo
+*.pdb
+*.obj
